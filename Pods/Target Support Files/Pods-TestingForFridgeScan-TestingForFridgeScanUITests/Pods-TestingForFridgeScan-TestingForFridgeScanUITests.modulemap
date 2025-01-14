@@ -1,0 +1,6 @@
+framework module Pods_TestingForFridgeScan_TestingForFridgeScanUITests {
+  umbrella header "Pods-TestingForFridgeScan-TestingForFridgeScanUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
