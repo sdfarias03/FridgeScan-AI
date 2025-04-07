@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026A7AD64D9EFFCBFA3B2C8D0CEB7EEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		0F6F2ED372F2919B93F3CE7B1A6DEFE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		13ACCF460157222C3AECB489D9B1CE52 /* Pods-TestingForFridgeScanTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C34213935F30317621EF6B65CD2D2A60 /* Pods-TestingForFridgeScanTests-dummy.m */; };
+		1735269F3739312C92B3ECDF8308C3FE /* Pods-TestingForFridgeScanTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5135E59FC9AC6F38885FF4EA922FC167 /* Pods-TestingForFridgeScanTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5068F25AC280C4A6FB74760210662A03 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B93407C51587D76D7C7893390B15E96 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		954FB549568167D3C46F6BBC8CD1CA9E /* Pods-TestingForFridgeScan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1E7B06247B5B4DE86A6FD1B6E212B3 /* Pods-TestingForFridgeScan-dummy.m */; };
+		C4C8F42B69977F299A24E44E67C8B6B3 /* Pods-TestingForFridgeScan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48F1FADEAFC794FC4CE372336B518BD2 /* Pods-TestingForFridgeScan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4C96C9E854F1ED71D10D896EA52CBAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		FC03E807CB7024B39BEF87264CBD27EE /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8C53E7B1150FF51F9FB91408933D08 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8FD00FA10DD02AE6836FD427654983A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9AF134FAC4236581B74487FC5073C80;
+			remoteInfo = "Pods-TestingForFridgeScan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F442F462DE7C462670569F3043DCA8 /* Pods-TestingForFridgeScanTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestingForFridgeScanTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		05EA8D91EAF98E28BBD5EAE93C2455A4 /* Pods-TestingForFridgeScanTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingForFridgeScanTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		12AA65F9246A8E1D4FA3F85416FABA15 /* Pods-TestingForFridgeScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingForFridgeScan.release.xcconfig"; sourceTree = "<group>"; };
+		17837040F8CD263BE4982B0FE8D80AB7 /* Pods-TestingForFridgeScanTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingForFridgeScanTests-Info.plist"; sourceTree = "<group>"; };
+		2B93407C51587D76D7C7893390B15E96 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestingForFridgeScan-TestingForFridgeScanUITests-umbrella.h"; sourceTree = "<group>"; };
+		3206A2F1EA15CE1BD09124F8B5BF845B /* Pods-TestingForFridgeScanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingForFridgeScanTests.release.xcconfig"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		48E15B844A1387F6FB502F9889AF0C5E /* Pods-TestingForFridgeScanTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestingForFridgeScanTests"; path = Pods_TestingForFridgeScanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F1FADEAFC794FC4CE372336B518BD2 /* Pods-TestingForFridgeScan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestingForFridgeScan-umbrella.h"; sourceTree = "<group>"; };
+		5135E59FC9AC6F38885FF4EA922FC167 /* Pods-TestingForFridgeScanTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestingForFridgeScanTests-umbrella.h"; sourceTree = "<group>"; };
+		703A81252F59D5F0F18671B345DB04DC /* Pods-TestingForFridgeScan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestingForFridgeScan.modulemap"; sourceTree = "<group>"; };
+		8C1AE9AE6618E1B50CB0C7289FEDA858 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingForFridgeScan-TestingForFridgeScanUITests-Info.plist"; sourceTree = "<group>"; };
+		922FEBF4295D998F8D6E58D9ECFB9C44 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestingForFridgeScan-TestingForFridgeScanUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92587B34ABFC0B83229EEB6D4CF0153F /* Pods-TestingForFridgeScan-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestingForFridgeScan-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BE7D9E7F49ECEE5B4AD882DA889B5EF /* Pods-TestingForFridgeScanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingForFridgeScanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D1E7B06247B5B4DE86A6FD1B6E212B3 /* Pods-TestingForFridgeScan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestingForFridgeScan-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCECC66D8247ABBF485D82CE8C6824A2 /* Pods-TestingForFridgeScan-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingForFridgeScan-acknowledgements.plist"; sourceTree = "<group>"; };
+		C33D4022254B91E8B9F15FF06F6E5796 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingForFridgeScan-TestingForFridgeScanUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C34213935F30317621EF6B65CD2D2A60 /* Pods-TestingForFridgeScanTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestingForFridgeScanTests-dummy.m"; sourceTree = "<group>"; };
+		D695D433FD6D733803D15676E7D62852 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestingForFridgeScan-TestingForFridgeScanUITests"; path = Pods_TestingForFridgeScan_TestingForFridgeScanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74A771F3A9C41738BFC31E411089EC0 /* Pods-TestingForFridgeScanTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestingForFridgeScanTests.modulemap"; sourceTree = "<group>"; };
+		E64FF5A73CC527D656531B56375E6CC2 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingForFridgeScan-TestingForFridgeScanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ECECFC4C859EE09AA44C8A7313165B44 /* Pods-TestingForFridgeScan */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestingForFridgeScan"; path = Pods_TestingForFridgeScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91DEC45065215FDD4444C451C719D37 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestingForFridgeScan-TestingForFridgeScanUITests.modulemap"; sourceTree = "<group>"; };
+		FC5BA7D21FF8A73CF37DBF8CCD97490E /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingForFridgeScan-TestingForFridgeScanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDD4429CEAD9AEDE1FABD1A4A272E7DC /* Pods-TestingForFridgeScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestingForFridgeScan.debug.xcconfig"; sourceTree = "<group>"; };
+		FE8C53E7B1150FF51F9FB91408933D08 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestingForFridgeScan-TestingForFridgeScanUITests-dummy.m"; sourceTree = "<group>"; };
+		FEFC216177CA07304223688FB42723E9 /* Pods-TestingForFridgeScan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestingForFridgeScan-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21DCAD96016315EE134030FFD9898169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C96C9E854F1ED71D10D896EA52CBAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FE7783EFA2867CF2C55938A918557C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6F2ED372F2919B93F3CE7B1A6DEFE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD7465CA3AD42CA0BC5263014E2D282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026A7AD64D9EFFCBFA3B2C8D0CEB7EEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EBED32195B3CDB3658420F59DF17D4C /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F91DEC45065215FDD4444C451C719D37 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests.modulemap */,
+				922FEBF4295D998F8D6E58D9ECFB9C44 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-acknowledgements.markdown */,
+				C33D4022254B91E8B9F15FF06F6E5796 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-acknowledgements.plist */,
+				FE8C53E7B1150FF51F9FB91408933D08 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-dummy.m */,
+				8C1AE9AE6618E1B50CB0C7289FEDA858 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-Info.plist */,
+				2B93407C51587D76D7C7893390B15E96 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-umbrella.h */,
+				FC5BA7D21FF8A73CF37DBF8CCD97490E /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests.debug.xcconfig */,
+				E64FF5A73CC527D656531B56375E6CC2 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests.release.xcconfig */,
+			);
+			name = "Pods-TestingForFridgeScan-TestingForFridgeScanUITests";
+			path = "Target Support Files/Pods-TestingForFridgeScan-TestingForFridgeScanUITests";
+			sourceTree = "<group>";
+		};
+		2E7B7717DB521E518CFD87C43AD31AB4 /* Pods-TestingForFridgeScanTests */ = {
+			isa = PBXGroup;
+			children = (
+				D74A771F3A9C41738BFC31E411089EC0 /* Pods-TestingForFridgeScanTests.modulemap */,
+				02F442F462DE7C462670569F3043DCA8 /* Pods-TestingForFridgeScanTests-acknowledgements.markdown */,
+				05EA8D91EAF98E28BBD5EAE93C2455A4 /* Pods-TestingForFridgeScanTests-acknowledgements.plist */,
+				C34213935F30317621EF6B65CD2D2A60 /* Pods-TestingForFridgeScanTests-dummy.m */,
+				17837040F8CD263BE4982B0FE8D80AB7 /* Pods-TestingForFridgeScanTests-Info.plist */,
+				5135E59FC9AC6F38885FF4EA922FC167 /* Pods-TestingForFridgeScanTests-umbrella.h */,
+				9BE7D9E7F49ECEE5B4AD882DA889B5EF /* Pods-TestingForFridgeScanTests.debug.xcconfig */,
+				3206A2F1EA15CE1BD09124F8B5BF845B /* Pods-TestingForFridgeScanTests.release.xcconfig */,
+			);
+			name = "Pods-TestingForFridgeScanTests";
+			path = "Target Support Files/Pods-TestingForFridgeScanTests";
+			sourceTree = "<group>";
+		};
+		7C00961BB74D3058754E5E4089419C0C /* Pods-TestingForFridgeScan */ = {
+			isa = PBXGroup;
+			children = (
+				703A81252F59D5F0F18671B345DB04DC /* Pods-TestingForFridgeScan.modulemap */,
+				92587B34ABFC0B83229EEB6D4CF0153F /* Pods-TestingForFridgeScan-acknowledgements.markdown */,
+				BCECC66D8247ABBF485D82CE8C6824A2 /* Pods-TestingForFridgeScan-acknowledgements.plist */,
+				9D1E7B06247B5B4DE86A6FD1B6E212B3 /* Pods-TestingForFridgeScan-dummy.m */,
+				FEFC216177CA07304223688FB42723E9 /* Pods-TestingForFridgeScan-Info.plist */,
+				48F1FADEAFC794FC4CE372336B518BD2 /* Pods-TestingForFridgeScan-umbrella.h */,
+				FDD4429CEAD9AEDE1FABD1A4A272E7DC /* Pods-TestingForFridgeScan.debug.xcconfig */,
+				12AA65F9246A8E1D4FA3F85416FABA15 /* Pods-TestingForFridgeScan.release.xcconfig */,
+			);
+			name = "Pods-TestingForFridgeScan";
+			path = "Target Support Files/Pods-TestingForFridgeScan";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E15A973B6EEBA373DDD15564E425538D /* Products */,
+				FBB1CDA5CF11418574E4C51992B44121 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E15A973B6EEBA373DDD15564E425538D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECECFC4C859EE09AA44C8A7313165B44 /* Pods-TestingForFridgeScan */,
+				D695D433FD6D733803D15676E7D62852 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests */,
+				48E15B844A1387F6FB502F9889AF0C5E /* Pods-TestingForFridgeScanTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FBB1CDA5CF11418574E4C51992B44121 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C00961BB74D3058754E5E4089419C0C /* Pods-TestingForFridgeScan */,
+				1EBED32195B3CDB3658420F59DF17D4C /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests */,
+				2E7B7717DB521E518CFD87C43AD31AB4 /* Pods-TestingForFridgeScanTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		71039BB95F416AA4EE079EBF7E0AFFD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5068F25AC280C4A6FB74760210662A03 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A71BB89E8DCE625C8FA6A2616F6D21C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1735269F3739312C92B3ECDF8308C3FE /* Pods-TestingForFridgeScanTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD2C33B81A5C5C6C97A0E6095A6E11C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C8F42B69977F299A24E44E67C8B6B3 /* Pods-TestingForFridgeScan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0785C9A4A3BD322EA8F39C2C2E56D8D6 /* Pods-TestingForFridgeScanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286567CB6171C3CAF671360EAE3D8915 /* Build configuration list for PBXNativeTarget "Pods-TestingForFridgeScanTests" */;
+			buildPhases = (
+				A71BB89E8DCE625C8FA6A2616F6D21C6 /* Headers */,
+				B529B609A107A44A42DE6F7B6ECE26D2 /* Sources */,
+				7FE7783EFA2867CF2C55938A918557C0 /* Frameworks */,
+				5D6332F767BE1A8CD63750B4EC1BB0A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				247CA8448E28BE3C7E63ACE1AC6345F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestingForFridgeScanTests";
+			productName = Pods_TestingForFridgeScanTests;
+			productReference = 48E15B844A1387F6FB502F9889AF0C5E /* Pods-TestingForFridgeScanTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		2673AD60857049B0438ABDC639945F4C /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6D8B105BB94E5C55EABC9C65C61D31 /* Build configuration list for PBXNativeTarget "Pods-TestingForFridgeScan-TestingForFridgeScanUITests" */;
+			buildPhases = (
+				71039BB95F416AA4EE079EBF7E0AFFD2 /* Headers */,
+				4F5159FEB9E48578A3D848024664CDF0 /* Sources */,
+				8DD7465CA3AD42CA0BC5263014E2D282 /* Frameworks */,
+				0EB208AA10CF38D4CBE3887E9A938365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TestingForFridgeScan-TestingForFridgeScanUITests";
+			productName = Pods_TestingForFridgeScan_TestingForFridgeScanUITests;
+			productReference = D695D433FD6D733803D15676E7D62852 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9AF134FAC4236581B74487FC5073C80 /* Pods-TestingForFridgeScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C306D4AFCADEB3E7793DD07F3464BFD /* Build configuration list for PBXNativeTarget "Pods-TestingForFridgeScan" */;
+			buildPhases = (
+				BBD2C33B81A5C5C6C97A0E6095A6E11C /* Headers */,
+				D37BB2027B207C5276027CE93F6115BE /* Sources */,
+				21DCAD96016315EE134030FFD9898169 /* Frameworks */,
+				891C5C3A8909E2CD241CC74B6F65CC0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TestingForFridgeScan";
+			productName = Pods_TestingForFridgeScan;
+			productReference = ECECFC4C859EE09AA44C8A7313165B44 /* Pods-TestingForFridgeScan */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E15A973B6EEBA373DDD15564E425538D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9AF134FAC4236581B74487FC5073C80 /* Pods-TestingForFridgeScan */,
+				2673AD60857049B0438ABDC639945F4C /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests */,
+				0785C9A4A3BD322EA8F39C2C2E56D8D6 /* Pods-TestingForFridgeScanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EB208AA10CF38D4CBE3887E9A938365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6332F767BE1A8CD63750B4EC1BB0A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891C5C3A8909E2CD241CC74B6F65CC0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F5159FEB9E48578A3D848024664CDF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC03E807CB7024B39BEF87264CBD27EE /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B529B609A107A44A42DE6F7B6ECE26D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13ACCF460157222C3AECB489D9B1CE52 /* Pods-TestingForFridgeScanTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37BB2027B207C5276027CE93F6115BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954FB549568167D3C46F6BBC8CD1CA9E /* Pods-TestingForFridgeScan-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		247CA8448E28BE3C7E63ACE1AC6345F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TestingForFridgeScan";
+			target = D9AF134FAC4236581B74487FC5073C80 /* Pods-TestingForFridgeScan */;
+			targetProxy = E8FD00FA10DD02AE6836FD427654983A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1062620526C55D36BF31ECE9978B3B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3206A2F1EA15CE1BD09124F8B5BF845B /* Pods-TestingForFridgeScanTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TestingForFridgeScanTests/Pods-TestingForFridgeScanTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestingForFridgeScanTests/Pods-TestingForFridgeScanTests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		145889F22F57AE9F79AF531EA8CCA06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64FF5A73CC527D656531B56375E6CC2 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TestingForFridgeScan-TestingForFridgeScanUITests/Pods-TestingForFridgeScan-TestingForFridgeScanUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestingForFridgeScan-TestingForFridgeScanUITests/Pods-TestingForFridgeScan-TestingForFridgeScanUITests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2662EDFD4AF6F2850B2B548A6465CA76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5DD830A2342BA06CE8A3D1880A6F900C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDD4429CEAD9AEDE1FABD1A4A272E7DC /* Pods-TestingForFridgeScan.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TestingForFridgeScan/Pods-TestingForFridgeScan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestingForFridgeScan/Pods-TestingForFridgeScan.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		645C686BFD86297CFFC3C29A34BA11C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8648BB1B5716965B61C79CC76E3B6BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12AA65F9246A8E1D4FA3F85416FABA15 /* Pods-TestingForFridgeScan.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TestingForFridgeScan/Pods-TestingForFridgeScan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestingForFridgeScan/Pods-TestingForFridgeScan.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1D63334502F920E40DDE8F363000B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE7D9E7F49ECEE5B4AD882DA889B5EF /* Pods-TestingForFridgeScanTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TestingForFridgeScanTests/Pods-TestingForFridgeScanTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestingForFridgeScanTests/Pods-TestingForFridgeScanTests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D962758F0AAF399D45114A85D13233ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC5BA7D21FF8A73CF37DBF8CCD97490E /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TestingForFridgeScan-TestingForFridgeScanUITests/Pods-TestingForFridgeScan-TestingForFridgeScanUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestingForFridgeScan-TestingForFridgeScanUITests/Pods-TestingForFridgeScan-TestingForFridgeScanUITests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C306D4AFCADEB3E7793DD07F3464BFD /* Build configuration list for PBXNativeTarget "Pods-TestingForFridgeScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DD830A2342BA06CE8A3D1880A6F900C /* Debug */,
+				8648BB1B5716965B61C79CC76E3B6BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286567CB6171C3CAF671360EAE3D8915 /* Build configuration list for PBXNativeTarget "Pods-TestingForFridgeScanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D63334502F920E40DDE8F363000B2D /* Debug */,
+				1062620526C55D36BF31ECE9978B3B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645C686BFD86297CFFC3C29A34BA11C4 /* Debug */,
+				2662EDFD4AF6F2850B2B548A6465CA76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6D8B105BB94E5C55EABC9C65C61D31 /* Build configuration list for PBXNativeTarget "Pods-TestingForFridgeScan-TestingForFridgeScanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D962758F0AAF399D45114A85D13233ED /* Debug */,
+				145889F22F57AE9F79AF531EA8CCA06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

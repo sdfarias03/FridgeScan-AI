@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18197FAF80F4509BCCA933F6 /* Pods_TestingForFridgeScanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DDCE6E479C43DCAEFD3228 /* Pods_TestingForFridgeScanTests.framework */; };
+		4ACC8B56566D0A934F514B13 /* Pods_TestingForFridgeScan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852C51940FB658E808B98C2A /* Pods_TestingForFridgeScan.framework */; };
+		A0BADE34CABA9FF33C1BAF60 /* Pods_TestingForFridgeScan_TestingForFridgeScanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99533495C7DCD4B829B3204F /* Pods_TestingForFridgeScan_TestingForFridgeScanUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D4524DA2CB49EB300AECD80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4524C12CB49EB100AECD80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D4524C82CB49EB100AECD80;
+			remoteInfo = TestingForFridgeScan;
+		};
+		1D4524E42CB49EB300AECD80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D4524C12CB49EB100AECD80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D4524C82CB49EB100AECD80;
+			remoteInfo = TestingForFridgeScan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		155CE5095C3510EED7B0F08D /* Pods-TestingForFridgeScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingForFridgeScan.release.xcconfig"; path = "Target Support Files/Pods-TestingForFridgeScan/Pods-TestingForFridgeScan.release.xcconfig"; sourceTree = "<group>"; };
+		1CE19BDB4B731492286EDBFC /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingForFridgeScan-TestingForFridgeScanUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestingForFridgeScan-TestingForFridgeScanUITests/Pods-TestingForFridgeScan-TestingForFridgeScanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D4524C92CB49EB100AECD80 /* TestingForFridgeScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestingForFridgeScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D4524D92CB49EB300AECD80 /* TestingForFridgeScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingForFridgeScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D4524E32CB49EB300AECD80 /* TestingForFridgeScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingForFridgeScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5CFF843C9AA135C801C6D9 /* Pods-TestingForFridgeScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingForFridgeScan.debug.xcconfig"; path = "Target Support Files/Pods-TestingForFridgeScan/Pods-TestingForFridgeScan.debug.xcconfig"; sourceTree = "<group>"; };
+		57EDBFBF114F17E81A5CC3C8 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingForFridgeScan-TestingForFridgeScanUITests.release.xcconfig"; path = "Target Support Files/Pods-TestingForFridgeScan-TestingForFridgeScanUITests/Pods-TestingForFridgeScan-TestingForFridgeScanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		66DDCE6E479C43DCAEFD3228 /* Pods_TestingForFridgeScanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestingForFridgeScanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		852C51940FB658E808B98C2A /* Pods_TestingForFridgeScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestingForFridgeScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99533495C7DCD4B829B3204F /* Pods_TestingForFridgeScan_TestingForFridgeScanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestingForFridgeScan_TestingForFridgeScanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA01B2BD09C6000A29F2263 /* Pods-TestingForFridgeScanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingForFridgeScanTests.debug.xcconfig"; path = "Target Support Files/Pods-TestingForFridgeScanTests/Pods-TestingForFridgeScanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECCF4004003DAE1E22C77BA8 /* Pods-TestingForFridgeScanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestingForFridgeScanTests.release.xcconfig"; path = "Target Support Files/Pods-TestingForFridgeScanTests/Pods-TestingForFridgeScanTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1D4525482CC8D09700AECD80 /* Exceptions for "TestingForFridgeScan" folder in "TestingForFridgeScan" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1D4524C82CB49EB100AECD80 /* TestingForFridgeScan */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1D4524CB2CB49EB100AECD80 /* TestingForFridgeScan */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1D4525482CC8D09700AECD80 /* Exceptions for "TestingForFridgeScan" folder in "TestingForFridgeScan" target */,
+			);
+			path = TestingForFridgeScan;
+			sourceTree = "<group>";
+		};
+		1D4524DC2CB49EB300AECD80 /* TestingForFridgeScanTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = TestingForFridgeScanTests;
+			sourceTree = "<group>";
+		};
+		1D4524E62CB49EB300AECD80 /* TestingForFridgeScanUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = TestingForFridgeScanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D4524C62CB49EB100AECD80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACC8B56566D0A934F514B13 /* Pods_TestingForFridgeScan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4524D62CB49EB300AECD80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18197FAF80F4509BCCA933F6 /* Pods_TestingForFridgeScanTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4524E02CB49EB300AECD80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BADE34CABA9FF33C1BAF60 /* Pods_TestingForFridgeScan_TestingForFridgeScanUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D4524C02CB49EB100AECD80 = {
+			isa = PBXGroup;
+			children = (
+				1D4524CB2CB49EB100AECD80 /* TestingForFridgeScan */,
+				1D4524DC2CB49EB300AECD80 /* TestingForFridgeScanTests */,
+				1D4524E62CB49EB300AECD80 /* TestingForFridgeScanUITests */,
+				1D4524CA2CB49EB100AECD80 /* Products */,
+				CF66AF9C8012389F4D0F364F /* Pods */,
+				895054A19EDF2B48DB470071 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D4524CA2CB49EB100AECD80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D4524C92CB49EB100AECD80 /* TestingForFridgeScan.app */,
+				1D4524D92CB49EB300AECD80 /* TestingForFridgeScanTests.xctest */,
+				1D4524E32CB49EB300AECD80 /* TestingForFridgeScanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		895054A19EDF2B48DB470071 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				852C51940FB658E808B98C2A /* Pods_TestingForFridgeScan.framework */,
+				99533495C7DCD4B829B3204F /* Pods_TestingForFridgeScan_TestingForFridgeScanUITests.framework */,
+				66DDCE6E479C43DCAEFD3228 /* Pods_TestingForFridgeScanTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF66AF9C8012389F4D0F364F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C5CFF843C9AA135C801C6D9 /* Pods-TestingForFridgeScan.debug.xcconfig */,
+				155CE5095C3510EED7B0F08D /* Pods-TestingForFridgeScan.release.xcconfig */,
+				1CE19BDB4B731492286EDBFC /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests.debug.xcconfig */,
+				57EDBFBF114F17E81A5CC3C8 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests.release.xcconfig */,
+				9DA01B2BD09C6000A29F2263 /* Pods-TestingForFridgeScanTests.debug.xcconfig */,
+				ECCF4004003DAE1E22C77BA8 /* Pods-TestingForFridgeScanTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D4524C82CB49EB100AECD80 /* TestingForFridgeScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D4524ED2CB49EB300AECD80 /* Build configuration list for PBXNativeTarget "TestingForFridgeScan" */;
+			buildPhases = (
+				439142DC243BC6F505EF0B77 /* [CP] Check Pods Manifest.lock */,
+				1D4524C52CB49EB100AECD80 /* Sources */,
+				1D4524C62CB49EB100AECD80 /* Frameworks */,
+				1D4524C72CB49EB100AECD80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1D4524CB2CB49EB100AECD80 /* TestingForFridgeScan */,
+			);
+			name = TestingForFridgeScan;
+			productName = TestingForFridgeScan;
+			productReference = 1D4524C92CB49EB100AECD80 /* TestingForFridgeScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D4524D82CB49EB300AECD80 /* TestingForFridgeScanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D4524F02CB49EB300AECD80 /* Build configuration list for PBXNativeTarget "TestingForFridgeScanTests" */;
+			buildPhases = (
+				505A3A443E3CE5D5577C135D /* [CP] Check Pods Manifest.lock */,
+				1D4524D52CB49EB300AECD80 /* Sources */,
+				1D4524D62CB49EB300AECD80 /* Frameworks */,
+				1D4524D72CB49EB300AECD80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D4524DB2CB49EB300AECD80 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1D4524DC2CB49EB300AECD80 /* TestingForFridgeScanTests */,
+			);
+			name = TestingForFridgeScanTests;
+			productName = TestingForFridgeScanTests;
+			productReference = 1D4524D92CB49EB300AECD80 /* TestingForFridgeScanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D4524E22CB49EB300AECD80 /* TestingForFridgeScanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D4524F32CB49EB300AECD80 /* Build configuration list for PBXNativeTarget "TestingForFridgeScanUITests" */;
+			buildPhases = (
+				8C7A2C08FF702705821BC42F /* [CP] Check Pods Manifest.lock */,
+				1D4524DF2CB49EB300AECD80 /* Sources */,
+				1D4524E02CB49EB300AECD80 /* Frameworks */,
+				1D4524E12CB49EB300AECD80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D4524E52CB49EB300AECD80 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1D4524E62CB49EB300AECD80 /* TestingForFridgeScanUITests */,
+			);
+			name = TestingForFridgeScanUITests;
+			productName = TestingForFridgeScanUITests;
+			productReference = 1D4524E32CB49EB300AECD80 /* TestingForFridgeScanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D4524C12CB49EB100AECD80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1D4524C82CB49EB100AECD80 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					1D4524D82CB49EB300AECD80 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1D4524C82CB49EB100AECD80;
+					};
+					1D4524E22CB49EB300AECD80 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1D4524C82CB49EB100AECD80;
+					};
+				};
+			};
+			buildConfigurationList = 1D4524C42CB49EB100AECD80 /* Build configuration list for PBXProject "TestingForFridgeScan" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D4524C02CB49EB100AECD80;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1D4524CA2CB49EB100AECD80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D4524C82CB49EB100AECD80 /* TestingForFridgeScan */,
+				1D4524D82CB49EB300AECD80 /* TestingForFridgeScanTests */,
+				1D4524E22CB49EB300AECD80 /* TestingForFridgeScanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D4524C72CB49EB100AECD80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4524D72CB49EB300AECD80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4524E12CB49EB300AECD80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		439142DC243BC6F505EF0B77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestingForFridgeScan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		505A3A443E3CE5D5577C135D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestingForFridgeScanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C7A2C08FF702705821BC42F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestingForFridgeScan-TestingForFridgeScanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D4524C52CB49EB100AECD80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4524D52CB49EB300AECD80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D4524DF2CB49EB300AECD80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D4524DB2CB49EB300AECD80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D4524C82CB49EB100AECD80 /* TestingForFridgeScan */;
+			targetProxy = 1D4524DA2CB49EB300AECD80 /* PBXContainerItemProxy */;
+		};
+		1D4524E52CB49EB300AECD80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D4524C82CB49EB100AECD80 /* TestingForFridgeScan */;
+			targetProxy = 1D4524E42CB49EB300AECD80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D4524EB2CB49EB300AECD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D4524EC2CB49EB300AECD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D4524EE2CB49EB300AECD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C5CFF843C9AA135C801C6D9 /* Pods-TestingForFridgeScan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestingForFridgeScan/Preview Content\"";
+				DEVELOPMENT_TEAM = LHW4763J45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = NO;
+				INFOPLIST_FILE = /Users/estrellaangel/Desktop/TestingForFridgeScan/TestingForFridgeScan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_PREPROCESS[sdk=*]" = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstone.TestingForFridgeScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D4524EF2CB49EB300AECD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 155CE5095C3510EED7B0F08D /* Pods-TestingForFridgeScan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TestingForFridgeScan/Preview Content\"";
+				DEVELOPMENT_TEAM = LHW4763J45;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = NO;
+				INFOPLIST_FILE = /Users/estrellaangel/Desktop/TestingForFridgeScan/TestingForFridgeScan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstone.TestingForFridgeScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1D4524F12CB49EB300AECD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DA01B2BD09C6000A29F2263 /* Pods-TestingForFridgeScanTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstone.TestingForFridgeScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestingForFridgeScan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestingForFridgeScan";
+			};
+			name = Debug;
+		};
+		1D4524F22CB49EB300AECD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECCF4004003DAE1E22C77BA8 /* Pods-TestingForFridgeScanTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstone.TestingForFridgeScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestingForFridgeScan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestingForFridgeScan";
+			};
+			name = Release;
+		};
+		1D4524F42CB49EB300AECD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CE19BDB4B731492286EDBFC /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstone.TestingForFridgeScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestingForFridgeScan;
+			};
+			name = Debug;
+		};
+		1D4524F52CB49EB300AECD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57EDBFBF114F17E81A5CC3C8 /* Pods-TestingForFridgeScan-TestingForFridgeScanUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = capstone.TestingForFridgeScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TestingForFridgeScan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D4524C42CB49EB100AECD80 /* Build configuration list for PBXProject "TestingForFridgeScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D4524EB2CB49EB300AECD80 /* Debug */,
+				1D4524EC2CB49EB300AECD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D4524ED2CB49EB300AECD80 /* Build configuration list for PBXNativeTarget "TestingForFridgeScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D4524EE2CB49EB300AECD80 /* Debug */,
+				1D4524EF2CB49EB300AECD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D4524F02CB49EB300AECD80 /* Build configuration list for PBXNativeTarget "TestingForFridgeScanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D4524F12CB49EB300AECD80 /* Debug */,
+				1D4524F22CB49EB300AECD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D4524F32CB49EB300AECD80 /* Build configuration list for PBXNativeTarget "TestingForFridgeScanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D4524F42CB49EB300AECD80 /* Debug */,
+				1D4524F52CB49EB300AECD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D4524C12CB49EB100AECD80 /* Project object */;
+}
